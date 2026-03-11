@@ -1,0 +1,63 @@
+discovery:
+  max_pages: 5
+  max_sitemaps: 3
+  pagination_param: page
+  profile_link_regexes:
+    - "/people/"
+    - "/faculty/"
+    - "/person/"
+    - "/profile/"
+    - "/staff/"
+  profile_link_hints:
+    - faculty
+    - people
+    - person
+    - profile
+    - staff
+    - directory
+    - /~
+
+titles:
+  aliases:
+    Assistant Professor:
+      - assistant professor
+    Associate Professor:
+      - associate professor
+    Professor:
+      - professor
+    Research Professor:
+      - research professor
+    Teaching Professor:
+      - teaching professor
+    Lecturer:
+      - lecturer
+    Research Scientist:
+      - research scientist
+
+scoring:
+  startup_keywords:
+    - founder of
+    - co-founder of
+    - founded
+    - co-founded
+    - cofounded
+    - founder
+    - cofounder
+    - spinout
+    - spun out
+    - started a company
+    - launched a company
+    - ceo of
+    - cto of
+  research_keywords:
+    - machine learning
+    - systems
+    - databases
+    - security
+    - ai
+    - computer vision
+    - natural language
+    - nlp
+    - llm
+    - distributed
+    - compiler
